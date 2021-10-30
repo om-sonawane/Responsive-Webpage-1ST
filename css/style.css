@@ -43,6 +43,7 @@
 .rightNav{
     width: 50%;
     text-align: right;
+    padding: 0 23px;
 }
 
 #search{
@@ -75,7 +76,7 @@
 }
  
 .firsthalf{
-    width: 50%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +84,7 @@
 }
 .secondhalf {
     width: 50%;
-
+    height: 100vh;
 
 }
 .secondhalf img{
