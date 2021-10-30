@@ -92,13 +92,14 @@
     border: radius 150px; 
     display: inline-block ;
     margin: auto;
+    text-align:center;
    
 }
 
 .text.big{
-    font-size: 50px;
+    font-size: 80px;
 
 }
 .text.small{
-    font-size: 25px;
+    font-size: 10px;
 }
