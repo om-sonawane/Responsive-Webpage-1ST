@@ -108,3 +108,13 @@ object-fit: cover;
 .text.small{
     font-size: 10px;
 }
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border:2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
