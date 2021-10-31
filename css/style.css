@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Ubuntu:ital,wght@1,500&display=swap');
 *{
     margin: 0;
     padding:0;
@@ -38,12 +39,13 @@
 }
 
 .nav-list li a:hover {
-     color: rgb(95, 0, 36);
+     color: rgb(192, 65, 114);
 }
 .rightNav{
     width: 50%;
     text-align: right;
     padding: 0 23px;
+    
 }
 
 #search{
@@ -57,11 +59,15 @@
     background: rgb(0, 0, 0, 0.7) url('../og.jpg');
     background-size: cover;
     background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
 
 }
 .firstsecton{
-     height: 100vh;
+     /* height: 100vh; */
      display: flex;
+     
 
 }
 .box-main{
@@ -84,7 +90,7 @@
 }
 .secondhalf {
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 .secondhalf img{
@@ -111,11 +117,35 @@ object-fit: cover;
 }
 .btn{
     padding: 8px 20px;
-    margin: 7px 0;
+    margin: 7px 3px;
     border:2px solid white;
     border-radius: 8px;
     font-size: 18px;
     background: none;
     color: white;
     cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+
+img.imgFluid {
+height: 324px;
+width: 401px;
+object-fit: cover;
+}
+.section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 40px;
+ font-family: 'Fruktur', cursive;
+ font-family: 'Ubuntu', sans-serif;
+}
+.paras{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding:0px 65px;
+    
 }
