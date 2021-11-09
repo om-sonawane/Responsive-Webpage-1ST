@@ -25,7 +25,7 @@
 }
 
 .nav-list {
-  width: 50%;
+  width: 70%;
   display: flex;
   align-items: center;
 }
@@ -38,9 +38,9 @@
 .nav-list li a {
   color: rgb(235, 101, 152);
   font-size: 20px;
-  font-family:  "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
-  .nav-list li a:hover {
+.nav-list li a:hover {
   color: rgb(228, 137, 170);
 }
 .rightNav {
@@ -123,9 +123,9 @@ img.black {
   padding: 6px 10px;
   vertical-align: middle;
 }
-.btn-sm{
-    color: black;
-    border: 2px black;
+.btn-sm {
+  color: rgb(255, 255, 255);
+  border: 2px rgb(224, 45, 135);
 }
 
 img.imgfluid {
@@ -151,45 +151,81 @@ img.imgfluid {
   height: 533px;
 }
 .text-center {
-text-align: center;
-height: 30px;
-font-family: "Fruktur", cursive;
-font-size: 30px;
+  text-align: center;
+  height: 30px;
+  font-family: "Fruktur", cursive;
+  font-size: 30px;
 }
-.form{
-    max-width: 300px;
-    margin: auto;
-    
+.form {
+  max-width: 300px;
+  margin: auto;
 }
-input#name{
-    width: 100%;
-    padding: 6px;
-    margin: 10px auto;
-    border:2px solid gray;
-    border-radius:6px;
-  
+input#name {
+  width: 100%;
+  padding: 6px;
+  margin: 10px auto;
+  border: 2px solid gray;
+  border-radius: 6px;
 }
-input#phone{
-    width: 100%;
-    padding: 6px;
-    margin: 10px auto;
-    border:2px solid gray;
-    border-radius:6px;
-   
+input#phone {
+  width: 100%;
+  padding: 6px;
+  margin: 10px auto;
+  border: 2px solid gray;
+  border-radius: 6px;
 }
-input#email{
-    width: 100%;
-    padding: 6px;
-    margin: 10px auto;
-    border:2px solid gray;
-    border-radius:6px;
-   
+input#email {
+  width: 100%;
+  padding: 6px;
+  margin: 10px auto;
+  border: 2px solid gray;
+  border-radius: 6px;
 }
-.text-footer{
+.text-footer {
   text-align: center;
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
-  display:flex ;
+  display: flex;
   justify-content: center;
+  color: rgb(185, 30, 30);
+}
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right:5%;
+  top: 15px;
+}
+.line {
+  
+  display: none;
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+}
 
+@media only screen and (max-width: 1140px) {
+  .nav-list {
+    flex-direction: column;
   }
+  .navbar {
+    flex-direction: column;
+    transform: all 0.7s ease-out ;
+  }
+  .rightNav {
+    text-align: center;
+  }
+  #search {
+    width: 100%;
+  }
+  .burger{
+    display: block;
+  }
+  .h-nav{
+    height: 72px;
+  }
+  .v-class{
+    opacity: 0;
+  }
+}
